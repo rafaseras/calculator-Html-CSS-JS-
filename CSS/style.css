@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 46, 46);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 150, 150);
+}
+
+.calc{
+    border-radius: 4px;
+    padding: 6px;
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+
+}
+
+input{
+    grid-column: span 3;
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: rgb(26, 25, 25);
+    text-align: end;
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+    font-size: 30px;
+}
+
+.botao{
+    background-color: rgb(116, 111, 111);
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    height:30px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.botao:hover {
+    background-color: rgb(175, 116, 116);
+}
+
+
+.botao2{
+    background-color: brown;
+    width: 110px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao2 :hover{
+    background-color: red;
+}
